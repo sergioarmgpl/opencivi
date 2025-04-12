@@ -23,7 +23,7 @@ def main():
     if answers['opcion'] == '1. Análisis de glifos':
         print("Ejecutando análisis de glifos")
         # glifos.train()
-        glifos.predict()
+        # glifos.predict()
     elif answers['opcion'] == '2. Reconocimiento de vasijas':
         print("Ejecutando reconocimiento de vasijas")
         vasijas.main()
